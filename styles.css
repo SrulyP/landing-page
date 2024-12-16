@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section, .bottom-section {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.logo {
+  justify-content: flex-start;
+}
+
+li {
+  list-style-type: none;
+}
