@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   border: 1px solid red;
+  font-family: 'Roboto';
 }
 
 body {
@@ -11,25 +12,124 @@ body {
   justify-content: space-between;
 }
 
+.top-section, .bottom-section, .random-information, .inspiring-quote, .sign-up {
+    margin: 0 200px;
+}
+
+/*------- Header -------*/
+
 header {
   display: flex;
   flex-direction: column;
-}
-
-.top-section, .bottom-section {
-  display: flex;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  padding: 15px;
+  background-color: #1F2937;
+  padding-bottom: 100px;
 }
 
 .logo {
+  display: flex;
   justify-content: flex-start;
+  font-size: 24px;
+  font-weight: 700;
+  color: #F9FAF8;
 }
 
+.header-links {
+  display: flex;
+  gap: 30px;
+}
+
+.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 520px;
+    height: 240px;
+    background-color: gray;
+}
+  
 li {
   list-style-type: none;
 }
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.bottom-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description, .sign-up-button, .placeholder {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    /* how to make it so that it is even? */
+}
+
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    padding: 5px;
+    width: 130px;
+    border-radius: 10px;
+}
+
+/*------- Middle sections -------*/
+
+.information-header {
+    margin: 30px; 
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infos {
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}
+
+.info-img {
+    height: 150px;
+}
+
+
+
+/* .sign-up-button-2 {} */
+
+
+/*------- Footer -------*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
