@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: 'Roboto';
 }
 
@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
 }
 
-.top-section, .bottom-section, .random-information, .sign-up {
+.top-section, .bottom-section, .information-section, .sign-up, .call-box {
     margin: 0 200px;
 }
 
@@ -72,7 +72,7 @@ h1 {
     align-items: center;
 }
 
-.description, .sign-up-button, .placeholder {
+.description, .sign-up-button, .sign-up-button-2, .placeholder {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -89,7 +89,7 @@ h1 {
     align-items: center;
 }
 
-.sign-up-button {
+.sign-up-button, .sign-up-button-2 {
     background-color: #3882f6;
     padding: 5px;
     width: 130px;
@@ -107,7 +107,7 @@ h1 {
     font-weight: 900;
 }
 
-.random-information {
+.information-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,17 +149,55 @@ h1 {
 
 }
 
+/*--- Call to Action ---*/
 
-/*--- Sign-up ---*/
+.call-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.call-box {
+    background-color: #3882f6;
+    padding: 50px 200px;
+    margin: 100px 200px;
+    border-radius: 10px;
+    display: flex;
+    gap: 50px;
+}
 
+.prompt {
+    display: flex;
+    flex-direction: column;
+}
 
-/* .sign-up-button-2 {} */
+.call-to-action {
+    font-size: 24px;
+    font-weight: 500;
+    color: #F9FAF8;
+}
+
+.sign-up-prompt {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.sign-up-button-2 {
+    border: white solid 2px;
+    height: 2em;
+    align-self: flex-end;
+}
 
 
 /*------- Footer -------*/
+
 footer {
+    font-size: 18px;
+    color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-content: center;
+    background-color: #1F2937;
+    padding: 50px 0;
   }
